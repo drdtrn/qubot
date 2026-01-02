@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import requests
 import asyncio
 
-TOKEN: Final = "6902203932:AAHm0-ggIDPFb-RckZvCe9gzu_Qne7kkrNA"
+TOKEN: Final = "TOKEN_HERE"
 BOTUSERNAME: Final = "@dm_daily_bot"
 
 app = Application.builder().token(TOKEN).build()
@@ -47,3 +47,4 @@ if __name__ == "__main__":
 
     # Start the bot
     app.run_polling()
+
