@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.venv
+env/
+venv/
+
+# Logs
+*.log
+/home/drdtrn/telegram-bots/dmprice_bot/*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+bot.log
